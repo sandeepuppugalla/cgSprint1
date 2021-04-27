@@ -10,4 +10,7 @@ public interface ISkillService {
 
 	Skill update(Skill skill);
 
+	Skill findById(Long id);
+	Long getCurrentId();
+
 }
